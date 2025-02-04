@@ -97,7 +97,7 @@ function App() {
       if ("clearAppBadge" in navigator) {
         try {
           await navigator.clearAppBadge();
-        } catch (error) {
+        } catch (error) { 
           console.error("Failed to clear app badge:", error);
         }
       }
