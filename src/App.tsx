@@ -63,7 +63,7 @@ function App() {
             </div>,
             {
               duration: 6000,
-              icon: <DataObjectRounded />,
+              icon: <DataObjectRounded />
               disableVibrate: true,
             },
           );
